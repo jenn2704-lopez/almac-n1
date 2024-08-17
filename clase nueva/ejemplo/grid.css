@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+nav{
+    height: 50px;
+    background-color: rgb(183, 247, 255);
+}
+
+header{
+    height: 50px;
+    background-color: rgb(137, 184, 255);
+}
+
+main{
+    background-color: rgb(215, 224, 255);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    height: auto;
+}
+
+.hijo_01{
+    background-color: rgb(230, 255, 184);
+    padding:50px;
+}
+
+.hijo_02{
+    background-color: rgb(195, 255, 176);
+    grid-column: 2/4;
+}
+
+.hijo_03{
+    background-color: rgb(160, 255, 184);
+}
+
+.hijo_04{
+    background-color: rgb(100, 255, 196);
+    grid-column: 1/4;
+}
+
+a{
+  text-align: center;
+  background-color: rgb(67, 201, 178);
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(167, 144, 221);
+}

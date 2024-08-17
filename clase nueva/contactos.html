@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTOS</title>
+    <link rel="stylesheet" href="styles.css"><!--es para enlazar el css-->
+</head>
+
+<body>
+    <nav>
+        <div class="container"></div> <!--BARRA DE NAVEGACION-->
+            <ul>
+                <li> <a href="index.html">INICIO</a></li>
+                <li> <a href="nosotros.html"> NOSOTROS</a></li>
+                <li> <a href="servicios.html">SERVICIOS</a></li>
+                <li> <a href="https://www.sise.edu.pe/">PORTAL</a></li>
+                <li> <a href="contactos.html">CONTACTO</a></li>
+            </ul>
+        </div>
+    </nav>
+
+        <header>
+            <div class="container">
+              <h1 id="CONTACTO" class="titulo_principal"> Pagina de CONTACTO</h1>
+            </div>
+          </header>
+          
+    <main>
+        <div class="container">
+
+
+        <h3>google maps</map></h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.5047046060085!2d-76.9878069!3d-12.146003600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b814b3d5464d%3A0xfa5b81ad056d16a6!2sInstituto%20SISE%20-%20Santiago%20de%20Surco!5e0!3m2!1ses-419!2spe!4v1718643725618!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <label for="NOMBRE">NOMBRE:</label> <!-- for es para que te al hacer click en nombre te apunte donde escribir-->
+            <input type="text" id="NOMBRE" placeholder="ingresa tu nombre....." required autofocus> <br><br>
+
+            <label for="APELLIDO">APELLIDO:</label> 
+            <input type="text" id="apellido" placeholder="ingresa tu apellido....." required><br><br>
+    <fieldset>
+            <legend>LOGIN:</legend>
+            <label for="PASSWORD">CONTRASEÑA:</label>  
+            <input type="password" id="PASSWORD" placeholder="ingresa tu contraseña....." required> <br><br>
+
+            <label for="PASSWORD"> CONFIRMAR CONTRASEÑA:</label>  
+            <input type="password" id="confirmar" placeholder="confirmar tu contraseña....."required><br><br> <!--placeholder es un texto fantasma-->
+
+            <label for="correo">CORREO:</label>  
+            <input type="email" id="CORREO" placeholder="ingresa tu correo....."> <br>
+    </fieldset><br>
+
+            <label for="celular">CELULAR:</label>  
+            <input type="tel" id="celular" value="+51"> <br><br> <!--value es un texto escrito-->
+
+            <label for="nacimiento">FECHA DE NACIMIENTO:</label>  
+            <input type="date" id="nacimiento"> <br><br>
+
+            <!--CASILLA DE VERIFICACION-->
+            <label for="carrera">CARRERA:</label><br>
+
+            <Input type="checkbox" id="derecho"></Input>
+            <label for="derecho">DERECHO</label> <br>
+
+            <Input type="checkbox" id="medicina"></Input>
+            <label for="medicina">MEDICINA</label><br>
+
+            <Input type="checkbox" id="ingenieria"></Input>
+            <label for="ingenieria">INGENIERIA</label><br>
+
+            <Input type="checkbox" id="nutrición"></Input>
+            <label for="nutrición">NUTRICIÓN</label> <br><br>
+
+            <!--GENERO-->
+            <label for="">GENERO:</label><br>
+            <input type="radio" id="masculino" name="genero">
+            <label for="masculino"> masculino</label>
+            <input type="radio" id="femenino" name="genero">
+            <label for="femenino">femenino</label><br><br>
+
+        <!--LISTA DESPLEGABLE-->
+        <fieldset>
+            <legend>COMANDOS:</legend>
+            <label for="profesion">PROFESIONES</label>
+            <select>
+                <option value="administración">ADMINISTRACIÓN</option>
+                <option value="cotabilidad">CONTABILIDAD</option>
+                <option value="informatica">INFORMATICA</option>
+                <option value="medicina">MEDICINA</option>
+                <option value="ingenieria">INGENIERIA</option>
+            </select> <br><br>
+
+            <label for="archivo">ARCHIVO:</label>
+            <input type="file"><br><br>
+
+            <label for="color">COLOR:</label>
+            <input type="color"> <br>
+        </fieldset><br>
+
+            <label for="mensaje">MENSAJE</label><br>
+            <textarea id="mensaje" rows="10" cols="40"></textarea><br><br> <!--rows es el largo y cols es el ancho-->
+
+            <!--BOTONES-->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpiar">
+
+        </form>
+        <hr>
+        <form action="">
+            <label for="NOMBRE">NOMBRE:</label> 
+            <input type="text" id="NOMBRE"> <br><br>
+
+            <label for="APELLIDO">APELLIDO:</label> 
+            <input type="text" id="apellido"><br><br>
+            
+            <label for="EDAD">EDAD:</label> 
+            <input type="text" id="edad"><br><br>
+
+            <label for="VINCULO">SELECCIONA LOS VEICULOS QUE TENGAS:</label><br>
+
+            <Input type="checkbox" id="BICI"></Input>
+            <label for="BICI">Tengo una vicicleta</label> <br>
+
+            <Input type="checkbox" id="coche"></Input>
+            <label for="coche">Tengo un coche</label><br>
+
+            <Input type="checkbox" id="barco"></Input>
+            <label for="barco">Tengo un barco</label><br><br>
+
+            <label for="jugamos">JUGAMOS?</label>
+            <select>
+                <option value="PIEDRA">PIEDRA</option>
+                <option value="PAPEL">PAPEL</option>
+                <option value="TIJERA">TIJERA</option>
+            </select> <br><br>
+
+            <label for="">INTRODUCE TU SEXO:</label><br>
+            <input type="radio" id="masculino" name="genero">
+            <label for="masculino"> masculino</label><br>
+            <input type="radio" id="femenino" name="genero">
+            <label for="femenino">femenino</label><br><br>
+
+            <input type="submit" value="submit">
+
+            <hr>
+            <h1>RESTAURANTE EL CENTOLLO</h1>
+            <H2>Haz tu reserva</H2>
+        <form action="">
+            <label for="NOMBRE">NOMBRE:</label> 
+                <input type="text" id="NOMBRE"> <br><br>
+
+            <label for="correo">CORREO:</label>  
+                <input type="email" id="CORREO"> <br><br>
+
+            <label for="celular">TELEFONO:</label>  
+                <input type="tel" id="celular"> <br><br>
+                
+            <label for="reserva">FECHA DE RESERVA:</label>  
+            <input type="date" id="reserva"> <br><br>
+
+            <label for="hora">FRANJA HORARIA:</label>  
+                <input type="time" id="horas"> <br><br>
+
+            <label for="comensales">COMENSALES(min 1, max 10):</label>  
+                <input type="text" id="comensales"> <br><br>
+            
+            <label for="color">COLOR:</label>
+            <input type="color"> <br><br>
+            
+            <label for="mensaje">DEMANDAS ESPECIALES</label><br><br>
+            <textarea id="mensaje" placeholder="alegias, tronas...." ></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Terminos y condiciones</p><br>
+            <p>Políticas de privacidad</p><br>
+            <p>Libro de reclamaciones</p><br>
+            <p>Portal de transparencia</p><br>
+            <p>Copyright © 2024 - Instituto Superior SISE</p><br>
+        </div>
+    </footer>
+    
+</body>
+</html>
